@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>The New York Times</title>
+</head>
+
+<body>
+    <div class="glb_container">
+        <div class="row header">
+            <div class="col-4 fl">
+                <div class="menü">
+                    <button class="glb_button">
+                        <svg class="css-1fe7a5q" viewBox="0 0 16 16" height="12pt" width="12pt">
+                            <rect x="1" y="2" fill="#000" width="15" height="2"></rect>
+                            <rect x="1" y="6" fill="#000" width="15" height="2"></rect>
+                            <rect x="1" y="10" fill="#000" width="15" height="2"></rect>
+                        </svg>
+                    </button>
+                </div>
+                <div class="srch ">
+                    <div class="fl">
+                        <button class="glb_button" data-test-id="search-button"><svg xmlns="http://www.w3.org/2000/svg"
+                                height="12pt" viewBox="-1 0 136 136.21852" width="12pt">
+                                <g id="surface1">
+                                    <path
+                                        d="M 93.148438 80.832031 C 109.5 57.742188 104.03125 25.769531 80.941406 9.421875 C 57.851562 -6.925781 25.878906 -1.460938 9.53125 21.632812 C -6.816406 44.722656 -1.351562 76.691406 21.742188 93.039062 C 38.222656 104.707031 60.011719 105.605469 77.394531 95.339844 L 115.164062 132.882812 C 119.242188 137.175781 126.027344 137.347656 130.320312 133.269531 C 134.613281 129.195312 134.785156 122.410156 130.710938 118.117188 C 130.582031 117.980469 130.457031 117.855469 130.320312 117.726562 Z M 51.308594 84.332031 C 33.0625 84.335938 18.269531 69.554688 18.257812 51.308594 C 18.253906 33.0625 33.035156 18.269531 51.285156 18.261719 C 69.507812 18.253906 84.292969 33.011719 84.328125 51.234375 C 84.359375 69.484375 69.585938 84.300781 51.332031 84.332031 C 51.324219 84.332031 51.320312 84.332031 51.308594 84.332031 Z M 51.308594 84.332031 "
+                                        style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;" />
+                                </g>
+                            </svg></button>
+                    </div>
+                    <div>
+                        <form method="get" action="/search">
+                            <div class="fl col-form-label"><input data-testid="search-input" class="serch_input"
+                                    type="text" name="query" placeholder="SEARCH" value=""></div>
+                            <button data-test-id="search-submit" type="submit" class="fl glb_button go">Go</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-4 language text-center  ">
+                <a href="">U.S</a>
+                <a href="">INTERNATINOL</a>
+                <a href="">CANADA</a>
+                <a href="">ESPAÑOL</a>
+                <a href="">中国人</a>
+            </div>
+            <div class="col-4 align-self-end ">
+                <a data-test-id="search-submit" type="submit" class=" ss fl glb_button go">Get NYT Cooking for
+                    $0.50/week</a>
+                <a data-test-id="search-submit" type="submit" class="logın fl glb_button go">Log In</a>
+            </div>
+        </div>
+        <div class="tittle">
+            <div class="date">
+                 <span id="days"></span> , <span id="months"></span> <span id="monthss"></span>, <span id="year"></span>
+            </div>
+            <div>
+                <a href="newspaper">Today's Paper</a>
+            </div>
+        </div>
+    </div>
+    <script src="my.js"></script>
+</body>
+
+</html>

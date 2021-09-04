@@ -1,0 +1,78 @@
+.glb_container {
+  width: 87%;
+  height: 500px;
+  /* background-color: red; */
+  margin-left: 75px;
+  margin-right: 6%;
+}
+.fl{
+    float: left;
+}
+  
+.glb_button{
+    margin-top: 5px;
+   background-color: white;
+    border: 1px rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.glb_button:hover{
+  background-color: rgba(248, 246, 248, 0.986);
+}
+.menü{
+    float: left;
+    margin-right: 5px;
+}
+.col-form-label{
+ margin-left: 5px;
+ margin-right: 5px;
+ margin-top: 4px;
+padding: 0%;
+}
+.serch_input{
+    width: 210px;
+    height: 35px;
+    margin-top: px;
+    border-radius: 2px;
+    border: 1px solid rgb(228, 228, 228);
+    padding-left: 25px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 12px;
+}
+.serch_input:active{
+    border: 1px solid rgb(228, 228, 228);
+}
+.go{
+    background-color: rgb(46, 59, 102);
+    font-size: 13px;
+    color: cornsilk;
+    height: 33px;
+    border-radius: 2px;
+}
+.go:hover{
+    background-color: rgb(56, 72, 128);
+    font-size: 13px;
+    color: cornsilk;
+    height: 33px;
+    border-radius: 2px;
+}
+.language{
+    font-size: 11px;
+    padding-top: 1%;
+ 
+}
+a{
+    text-decoration:none;
+    color: black;
+    padding-left: 15px;
+}
+.logın{
+    margin-left:5px;
+}
+
+.ss{
+    margin-left: 105px;
+}

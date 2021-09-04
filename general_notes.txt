@@ -1,0 +1,13 @@
+İlk amacımız The Newyork Times gazetesinin birebir clonelamak,
+daha sonrasından ise bir admin paneli oluşturarak yazarların kaleme aldıkları
+metinlerin editörlere kolay bir şekilde ulaştırması ve editörlerin bu 
+içeriği inceleyip site içerisinde istedikleri yerlere ekleme yapabilmelerini
+belirteceği bir panel oluşturma. Eklenen içeriğin site anasayfa ve gerekli
+sayfalarda güncelleme yapılmasını sağlamak.
+
+
+
+Clone site : https://www.nytimes.com/ 
+
+Font Styleh link: ttps://www.1001fonts.com/new-york-times-fonts.html
+
